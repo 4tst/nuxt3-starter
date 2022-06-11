@@ -1,4 +1,20 @@
 {
   // https://v3.nuxtjs.org/concepts/typescript
-  "extends": "./.nuxt/tsconfig.json"
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    // "paths": {
+    //   "dew/*":["dew/*"],
+    //   "ddesign/*":["ddesign/*"]
+    // },
+    "target": "esnext",
+    "lib": ["dom","ES6","esnext"],
+    "allowJs": true,
+    "jsx": "react"
+  }
 }
