@@ -15,13 +15,13 @@ export default defineNuxtConfig({
         clientPort: 30000,
         path: '/',
       },
-      proxy: {
-        "/api": {
-          target: 'http://172.66.80.1',
-          changeOrigin: true,
-          rewrite: (path) => path.replace(/^\/api/, '')
-        },
-      }
+      // proxy: {
+      //   "/api": {
+      //     target: 'http://172.66.80.1',
+      //     changeOrigin: true,
+      //     rewrite: (path) => path.replace(/^\/api/, '')
+      //   },
+      // }
     }
   }
 })

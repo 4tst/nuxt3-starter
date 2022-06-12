@@ -1,9 +1,9 @@
 /*
  * @Author: leoking
- * @Date: 2022-06-11 20:08:02
- * @LastEditTime: 2022-06-11 20:14:48
+ * @Date: 2022-06-12 14:03:05
+ * @LastEditTime: 2022-06-12 14:06:20
  * @LastEditors: your name
  * @Description: 
  */
 
-export default defineEventHandler(() => 'without api prefix%')
+export default defineEventHandler(() => 'without api')
