@@ -1,11 +1,13 @@
 /*
  * @Author: leoking
  * @Date: 2022-06-10 20:11:08
- * @LastEditTime: 2022-06-11 20:18:07
+ * @LastEditTime: 2022-06-13 14:52:12
  * @LastEditors: your name
  * @Description: 
  */
+import { test } from "~/service/sqlite-ex"
 export default (req, res) => {
+  test()
   res.end('Legacy handler')
 }
 // import { useBody } from 'h3';
